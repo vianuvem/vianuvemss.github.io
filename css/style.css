@@ -59,6 +59,7 @@ a:link {
 }
 
 
+
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
 @media (min-width: 320px) {
   
@@ -118,7 +119,8 @@ a:link {
 
     .blocoInscreva{
   
-        width: 300px;
+        width: 100%;
+        max-width: 414px;
         height: 267px;
         background: #FAFAFA;
         
@@ -127,9 +129,10 @@ a:link {
     .blocoInscreva2{
     
         /* Rectangle 2.15 */
-        width: 300px;
+        width: 100%;
+        max-width: 414px;
         height: 267px;
-        font-size: 14px;
+        font-size: 13px;
         letter-spacing: 0.03em;
         text-transform: lowercase;
     
@@ -149,7 +152,7 @@ a:link {
     .text-local{
         font-style: normal;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 20px;
         line-height: 49px;
 
         letter-spacing: 0.03em;
@@ -160,10 +163,10 @@ a:link {
    
     
     .mt-80{
-        margin-top: 40px;
+        margin-top: 50px;
     }
     .lesp-125{
-        margin-left: 125px
+        margin-left: 30px
     }
 
     .resp-80{
@@ -180,6 +183,14 @@ a:link {
     
     }
 
+    .text-end{   
+        font-style: normal;
+        font-size: 12.5px;
+        line-height: 23px;
+        letter-spacing: 0.05em;
+    }
+    
+   
 
 }
 
@@ -243,9 +254,17 @@ a:link {
         height: 100px;
     }
 
+    
+    .inscreva{
+        background-image: url(/img/lin.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+
     .blocoInscreva{
   
-        width: 435px;
+        width: 438px;
         height: 367px;
         background: #FAFAFA;
         
@@ -254,7 +273,7 @@ a:link {
     .blocoInscreva2{
     
         /* Rectangle 2.15 */
-        width: 430px;
+        width: 438px;
         height: 367px;
         font-size: 50px;
         line-height: 61px;
@@ -284,11 +303,14 @@ a:link {
 
     }
 
-   
-    
     .mt-80{
-        margin-top: 40px;
+        margin-top: 80px;
     }
+
+    .mt-100{
+        margin-top: 120px;
+    }
+
     .lesp-125{
         margin-left: 125px
     }
