@@ -51,8 +51,179 @@ a:link {
     font-weight: bold;
 }
 
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+  }
 
-@media (min-width: 768px){
+.c-azul li {
+    border: 1px solid #3B53FF;
+  }
+
+  .carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    background-color: #3B53FF;
+}
+
+.sb{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #3B53FF;
+    margin-top: 32px;
+}
+
+.di{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #3B53FF;    
+    margin-top: 22px; 
+    margin-bottom: 30px;  
+}
+
+.fp{
+ 
+    font-size: 11.9px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+}
+
+.titulo{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #3B53FF;
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+
+.space-carousel {
+    height: 90px;
+}
+
+.blocoInscreva{
+    width: 295px;
+    max-width: 400px;
+    height: 247px;
+    font-size: 20px;
+    line-height: 37px;
+    letter-spacing: 0.03em;
+    text-transform: lowercase;
+    background: #FAFAFA;
+    color: #3B53FF;
+    border: 2px solid #3B53FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 40px;
+
+}
+.blocoInscrevaVerde{
+    color: #00DEDE;
+    border: 2px solid #00DEDE;
+}
+
+.icon{
+    width: 60px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-curva {
+    background-image: url(/img/mk.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+.text-local{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+.text-end{   
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.img-fluid {
+    min-width: 30%;
+  }
+
+  .mob {
+    min-height: 375px;
+    
+  }
+  .insc {
+    font-size: 1.5rem;
+}
+
+.logovia{
+    width: 135;
+}
+
+@media (min-width: 415px){
+    .even {
+        max-width: 50%;
+    }
+
+    .blocoInscreva{
+        width: 35%;
+        max-width: 400px;
+        height: 247px;
+       
+        line-height: 37px;
+        letter-spacing: 0.03em;
+        text-transform: lowercase;
+        background: #FAFAFA;
+        color: #3B53FF;
+        border: 2px solid #3B53FF;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding-top: 40px;
+    
+    }
+
+    .insc {
+        font-size: 1.5rem;
+    }
+
+    .blocoInscrevaVerde{
+        color: #00DEDE;
+        border: 2px solid #00DEDE;
+    }
+
+}
+
+
+@media (min-width: 1028px){
 
     .sb{
         font-size: 34.5px;
@@ -159,139 +330,9 @@ a:link {
         letter-spacing: 0.05em;
     }
 
-}
 
-
-@media (max-width: 767px){
-
-    .carousel-indicators li {
-        width: 8px;
-        height: 8px;
-        border-radius: 100%;
-      }
-    
-    .c-azul li {
-        border: 1px solid #3B53FF;
-      }
-    
-      .carousel-indicators .active {
-        width: 8px;
-        height: 8px;
-        background-color: #3B53FF;
+      .insc {
+        font-size: 3.0rem;
     }
-
-    .sb{
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-        color: #3B53FF;
-        margin-top: 32px;
-    }
-
-    .di{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 35px;
-        line-height: 43px;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: uppercase;
-        color: #3B53FF;    
-        margin-top: 22px; 
-        margin-bottom: 30px;  
-    }
-
-    .fp{
-     
-        font-size: 11.9px;
-        line-height: 15px;
-        text-align: center;
-        letter-spacing: 0.05em;
-        margin-bottom: 30px;
-    }
-
-    .titulo{
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-        color: #3B53FF;
-        margin-top: 38px;
-        margin-bottom: 20px;
-    }
-
-    .space-carousel {
-        height: 90px;
-    }
-
-    .blocoInscreva{
-        width: 295px;
-        height: 247px;
-        font-size: 20px;
-        line-height: 37px;
-        letter-spacing: 0.03em;
-        text-transform: lowercase;
-        background: #FAFAFA;
-        color: #3B53FF;
-        border: 2px solid #3B53FF;
-        box-sizing: border-box;
-        border-radius: 10px;
-        padding-top: 40px;
-    
-    }
-    .blocoInscrevaVerde{
-        color: #00DEDE;
-        border: 2px solid #00DEDE;
-    }
-
-    .icon{
-        width: 60px;
-        height: 50px;
-        margin-bottom: 20px;
-    }
-
-    .footer-curva {
-        background-image: url(/img/mk.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: absolute;
-        left: 0;
-        right: 0;
-    
-    }
-
-    .text-local{
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        margin-top: 30px;
-        margin-bottom: 30px;
-
-    }
-
-
-    .text-end{   
-        font-size: 12px;
-        line-height: 15px;
-        text-align: center;
-        letter-spacing: 0.05em;
-    }
-    
-    .img-fluid {
-        min-width: 30%;
-      }
-
-      .mob {
-        min-height: 375px;
-        
-      }
 
 }
