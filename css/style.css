@@ -284,5 +284,14 @@ a:link {
         text-align: center;
         letter-spacing: 0.05em;
     }
+    
+    .img-fluid {
+        min-width: 30%;
+      }
+
+      .mob {
+        min-height: 375px;
+        
+      }
 
 }
