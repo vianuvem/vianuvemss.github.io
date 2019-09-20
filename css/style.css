@@ -149,6 +149,8 @@ a:link {
     left: 0;
     right: 0;
     bottom: 0;
+    position: relative;
+
 
 }
 
@@ -370,6 +372,8 @@ a:link {
         left: 0;
         right: 0;
         bottom: 0;
+        relative;
+    
     
     }
 
