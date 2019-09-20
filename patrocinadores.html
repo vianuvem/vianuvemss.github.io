@@ -41,10 +41,16 @@
 
     <div class=" container-fluid">
 
-            <div class="row justify-content-center ">
+            <div class="row justify-content-center">
                 
-                <img src="/img/patro.svg"  class="img-fluid w-100" alt="">
+                    <picture  class="mx-auto d-block">
+                            <source media="(min-width: 900px)" srcset="/img/patro.svg">
+                            <source media="(max-width: 414px)" srcset="/img/cota.png">
+                            <img src="/img/patro.svg" alt="Patrocinadores"  class="img-fluid w-100">
+                    </picture>
 
+                <!-- <img src="/img/patro.svg"  class="img-fluid w-100" alt=""> -->
+              
 
                 <div class="d-flex flex-column mx-auto marketing">
                     <span class="bold azul" >Contato Marketing: </span>
