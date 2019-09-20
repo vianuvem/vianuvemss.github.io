@@ -165,6 +165,35 @@ a:link {
     margin-bottom: 300px;
 }
 
+
+.comite{
+    border: 2px solid #3B53FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px;
+}
+.comiteverde{
+    border: 2px solid #00DEDE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.comiteTitulo {
+    height: 88px;
+    width: 400px;
+    left: 13.75%;
+    right: 61.09%;
+    top: calc(50% - 88px/2 - 372px);
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 43px;
+    letter-spacing: 0.05em;
+}
+
  
  #program figure{
      width: 100%;
