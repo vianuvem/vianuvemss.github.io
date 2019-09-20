@@ -282,17 +282,16 @@ a:link {
 .menu  li   {
     background: #00DEDE;
     border-radius: 30px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
-    width: 200px;
-   
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+    margin-top: 10px;
 
-    margin: 10px;
 }
 
 
@@ -416,7 +415,7 @@ h1{
         text-transform: uppercase;
         width: 200px;
         padding-left: 20px;
-    
+        left: 20px;
         margin: 5px;
     }
 
