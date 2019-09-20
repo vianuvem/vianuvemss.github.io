@@ -66,6 +66,9 @@ a:link {
     height: 8px;
     background-color: #3B53FF;
 }
+.verde{
+    color: #00DEDE;
+}
 
 .sb{
     font-size: 20px;
@@ -109,6 +112,7 @@ a:link {
     color: #3B53FF;
     margin-top: 38px;
     margin-bottom: 20px;
+  
 }
 
 .space-carousel {
@@ -159,6 +163,8 @@ a:link {
 .header-curva {
     background-image: url(/img/header-curva.svg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 .text-local{
@@ -192,21 +198,16 @@ a:link {
   }
   .insc {
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .logovia{
     width: 135;
 }
 
-.logo {
-    padding: 10px;
-    margin-left: 10px;
-
-}
-
 .menu  {
     list-style-type: none; 
-    margin-right: 150px;
+    margin-right: 6%;
 }
 
 .menu  li   {
@@ -219,17 +220,83 @@ a:link {
     line-height: 17px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    width: 300px;
-    padding-left: 20px;
+    width: 200px;
+   
 
-    margin: 5px;
+    margin: 10px;
 }
 
 
 
 .navbar-toggler-icon {
     background-image: url(/img/br-menu.png);
-    height: 20px;
+    height: 15px;
+}
+
+
+
+ /* Paginas Eventos */
+
+ .caixa-texto{
+    width: 80%;
+}
+
+.logo img{
+    max-width: 120px;
+}
+
+
+
+h1{
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #3B53FF;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.navbar{
+    padding: 50px;
+}
+.texto{ 
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #626262;
+    
+ 
+}
+
+.subtitulo{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #3B53FF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.azul-marinho{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #00DEDE;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
 }
 
 
@@ -260,6 +327,7 @@ a:link {
 
     .insc {
         font-size: 1.5rem;
+        text-align: center;
     }
 
     .blocoInscrevaVerde{
@@ -328,6 +396,7 @@ a:link {
         color: #3B53FF;
         margin-top: 100px;
         margin-bottom: 50px;
+        text-align: center;
     }
 
     .space-carousel {
@@ -368,13 +437,11 @@ a:link {
         
     }
 
-    .verde{
-        color: #00DEDE;
-    }
+
 
 
     .icon{
-        margin-bottom: 50px;
+        width: 100%;
     }
 
     .footer-curva {
@@ -407,16 +474,21 @@ a:link {
         letter-spacing: 0.05em;
     }
 
-
+ /* Paginas Eventos */
 
     .caixa-texto{
         width: 933px;
     }
 
-    .logo {
+    .logo  {
         margin: 92px;
         margin-left: 130px;
+        width: 100%;
     
+    }
+
+    .logo img{
+        max-width: 200px;
     }
 
     h1{
@@ -425,7 +497,7 @@ a:link {
         line-height: 73px;
         letter-spacing: 0.02em;
         text-transform: uppercase;
-
+        text-align: left;
         margin-bottom: 30px;
         color: #3B53FF;
     }
