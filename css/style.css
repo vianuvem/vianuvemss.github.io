@@ -146,10 +146,9 @@ a:link {
     background-image: url(/img/mk.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
 
 }
 
@@ -395,20 +394,6 @@ a:link {
 
       .insc {
         font-size: 3.0rem;
-    }
-
-
-    
-
-    h1 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 60px;
-        line-height: 73px;
-        letter-spacing: 0.02em;
-        text-transform: uppercase;
-        color: #3B53FF;
-
     }
 
 }
