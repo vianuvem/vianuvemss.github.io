@@ -205,7 +205,6 @@ a:link {
 }
 
 .menu  {
-    margin: 50px;
     list-style-type: none; 
     margin-right: 150px;
 }
@@ -343,22 +342,32 @@ a:link {
     }
 
     .blocoInscreva{
-        width: 438px;
+        min-width: 450px;
         height: 367px;
         left: 172px;
-        top: 2003px;
         background: #FAFAFA;
         color: #3B53FF;
         border: 2px solid #3B53FF;
         box-sizing: border-box;
         border-radius: 10px;
-        padding-top: 53px;
+
     
     }
+
+    .insc {
+        font-size: 3.0rem;
+
+    }
+
     .blocoInscrevaVerde{
+        
         color: #00DEDE;
         border: 2px solid #00DEDE;
         
+    }
+
+    .verde{
+        color: #00DEDE;
     }
 
 
@@ -397,9 +406,7 @@ a:link {
     }
 
 
-      .insc {
-        font-size: 3.0rem;
-    }
+     
 
 
     .caixa-texto{
@@ -419,26 +426,44 @@ a:link {
         letter-spacing: 0.02em;
         text-transform: uppercase;
 
+        margin-bottom: 30px;
         color: #3B53FF;
     }
-    .fal{ 
+    .texto{ 
         font-family: Montserrat;
         font-style: normal;
-        font-size: 16.5px;
-        line-height: 23px;
+        font-size: 18.5px;
+        line-height: 25px;
         text-align: justify;
         letter-spacing: 0.05em;
         color: #626262;
+        
      
     }
 
     .subtitulo{
+        font-weight: bold;
         font-size: 26px;
         line-height: 32px;
         text-align: justify;
         letter-spacing: 0.05em;
         color: #3B53FF;
+        margin-top: 30px;
+        margin-bottom: 30px;
 
+    }
+
+    .azul-marinho{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38.5px;
+        line-height: 47px;
+        text-align: justify;
+        letter-spacing: 0.05em;
+        color: #00DEDE;
+        margin-top: 63px;
+        margin-bottom: 63px;
+  
     }
 
 }
