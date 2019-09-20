@@ -161,16 +161,37 @@ a:link {
 
 }
 
-.program{
-    
-    background-image: url(/img/program.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: relative;
+.pro {
+    margin-bottom: 300px;
 }
+
+ 
+ #program figure{
+     width: 100%;
+     min-height: 600px;
+     overflow:hidden;
+     float:left;
+     text-align: center;
+     color: #FAFAFA;
+     display: block;
+     padding:0;
+     margin: 0;
+     bottom: 0;
+     position: relative;
+     background-color: #3B53FF;
+ }
+
+ 
+ 
+ #program figcaption{
+     position: absolute;
+     bottom: 0;
+     padding:0;
+     margin: 0;
+     width: 100%;
+     min-width: 50%;
+ }
+ 
 
 
 .header-curva {
@@ -358,7 +379,7 @@ h1{
         line-height: 17px;
         letter-spacing: 0.02em;
         text-transform: uppercase;
-        width: 250px;
+        width: 200px;
         padding-left: 20px;
     
         margin: 5px;
@@ -563,6 +584,19 @@ h1{
         color: #626262;
         
 
+    }
+
+    /* Programacao */
+
+    .divprogra{
+       height: 231px;
+left: 11.09%;
+right: 13.2%;
+top: calc(50% - 231px/2 - 338.5px);
+
+border: 2px solid #3B53FF;
+box-sizing: border-box;
+border-radius: 10px;
     }
 
 }
