@@ -146,9 +146,10 @@ a:link {
     background-image: url(/img/mk.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
+    bottom: 0;
 
 }
 
