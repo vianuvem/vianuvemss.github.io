@@ -165,26 +165,37 @@ a:link {
     margin-bottom: 400px;
 }
 
+.pro2 {
+   
+
+
+}
+
+
 .comite{
     border: 2px solid #3B53FF;
     box-sizing: border-box;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
 }
 .comiteverde{
     border: 2px solid #00DEDE;
     box-sizing: border-box;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .comiteTitulo {
+    height: 38px;
+    width: 137px;
+  
+
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 43px;
-  
+    letter-spacing: 0.05em;
 }
 
  
@@ -354,15 +365,6 @@ h1{
 
 }
 
-.marketing{
-    margin-top: 40px;
-    font-size: 14.5px;
-    line-height: 35px;
-    text-align: center;
-    color: #626262;
-    
-
-}
 
 @media (min-width: 415px){
 
