@@ -629,4 +629,22 @@ box-sizing: border-box;
 border-radius: 10px;
     }
 
+    .formulario{
+        margin-top: 30px;
+    }
+
+    .formulario input{
+        height: 47px;
+        background: rgba(196, 196, 196, 0.2);
+        border-radius: 10px;
+        
+        font-size: 18.5px;
+        line-height: 23px;
+        /* identical to box height */
+        text-align: justify;
+        letter-spacing: 0.05em;
+        border-color: rgba(196, 196, 196, 0.2);;
+        color: #626262;
+    }
+
 }
